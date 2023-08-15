@@ -1,6 +1,7 @@
 import time
 import os
 import pickle
+import pydirectinput
 
 import abundant_shrine
 import mistralton
@@ -24,6 +25,9 @@ def run(place, action):
     with open("log.txt", "a") as f_temp:
         print("Starting Script", file=f_temp)
     time.sleep(2)
+    pydirectinput.press("x")
+    with open("log.txt", "a") as f_temp:
+        print("Toggle Run", file=f_temp)
     if place == "Mistralton":
         mistralton.do_all(action)
     elif place == "Abundant Shrine":

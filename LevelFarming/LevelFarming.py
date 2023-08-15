@@ -1,5 +1,6 @@
 import os
 import time
+import pydirectinput
 
 import fight
 import heal_return
@@ -22,6 +23,9 @@ def run(x=None):
     with open("log.txt", "a") as f_temp:
         print("Starting Script", file=f_temp)
     time.sleep(2)
+    pydirectinput.press("x")
+    with open("log.txt", "a") as f_temp:
+        print("Toggle Run", file=f_temp)
     # loop forever
     while True:
         heal_return.run()

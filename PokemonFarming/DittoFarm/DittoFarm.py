@@ -1,5 +1,6 @@
 import time
 import os
+import pydirectinput
 
 import catch_ditto
 import heal_return
@@ -23,6 +24,9 @@ def run(ball_num=None):
         with open("log.txt", "a") as f_temp:
             print("Starting with " + str(ball_num) + " ball", file=f_temp)
     time.sleep(2)
+    pydirectinput.press("x")
+    with open("log.txt", "a") as f_temp:
+        print("Toggle Run", file=f_temp)
     # loop forever
     while True:
         heal_return.run()

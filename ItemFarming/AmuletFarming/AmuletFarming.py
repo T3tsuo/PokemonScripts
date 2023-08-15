@@ -2,6 +2,7 @@ import time
 import os
 import pickle
 
+import pydirectinput
 import grab_items
 import heal_return
 import time_to_seconds
@@ -36,6 +37,9 @@ def run(x=None, run_code_time=None):
     with open("log.txt", "a") as f_temp:
         print("Running for " + str(run_code_time) + " seconds", file=f_temp)
     time.sleep(2)
+    pydirectinput.press("x")
+    with open("log.txt", "a") as f_temp:
+        print("Toggle Run", file=f_temp)
     # this is when the code started to run
     start_time = time.time()
     # this is when the code should stop

@@ -6,7 +6,7 @@ import grab_items
 import heal_return
 import time_to_seconds
 from shiny_notify import ping_mail, check_mail_acc
-print("testing pull function)
+print("testing pull function")
 
 # this program grabs items and then fly's to go restore pokemon pp
 

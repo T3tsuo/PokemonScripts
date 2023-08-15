@@ -42,8 +42,8 @@ def paying_attention_break():
 
 
 def heal_up_break():
-    # dialogue of nurse healing break from 4 seconds to 5 seconds
-    return random() * 1 + 4
+    # dialogue of nurse healing break from 6 seconds to 7 seconds
+    return random() * 1 + 6
 
 
 # break from 0.1 - 0.25 seconds

@@ -10,21 +10,21 @@ import random_breaks
 from shiny_notify import ping_mail, check_mail_acc
 
 
-battle_done = "scripts/LevelFarming/location/battle_done.png"
+battle_done = "scripts/PokemonScripts/LevelFarming/location/battle_done.png"
 
-inside_building = "scripts/LevelFarming/location/inside_building.png"
+inside_building = "scripts/PokemonScripts/LevelFarming/location/inside_building.png"
 
-rapidash_png = "scripts/LevelFarming/location/rapidash.png"
+rapidash_png = "scripts/PokemonScripts/LevelFarming/location/rapidash.png"
 
-run_option = "scripts/LevelFarming/location/run_option.png"
+run_option = "scripts/PokemonScripts/LevelFarming/location/run_option.png"
 
-fight_option = "scripts/LevelFarming/location/fight_option.png"
+fight_option = "scripts/PokemonScripts/LevelFarming/location/fight_option.png"
 
-surf_option = "scripts/LevelFarming/location/surf_option.png"
+surf_option = "scripts/PokemonScripts/LevelFarming/location/surf_option.png"
 
-earthquake_option = "scripts/LevelFarming/location/earthquake_option.png"
+earthquake_option = "scripts/PokemonScripts/LevelFarming/location/earthquake_option.png"
 
-shiny_png = "scripts/LevelFarming/location/shiny_pokemon.png"
+shiny_png = "scripts/PokemonScripts/LevelFarming/location/shiny_pokemon.png"
 
 if os.path.isfile("email.dat"):
     google_email = pickle.load(open("email.dat", "rb"))

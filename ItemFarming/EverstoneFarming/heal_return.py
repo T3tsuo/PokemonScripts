@@ -7,15 +7,15 @@ import random_breaks
 from path_correction import self_align_side, self_align_up
 
 
-outside_building = "scripts/ItemFarming/EverstoneFarming/location/outside_building.png"
+outside_building = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/outside_building.png"
 
-left_of_slide = "scripts/ItemFarming/EverstoneFarming/location/left_of_slide.png"
+left_of_slide = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/left_of_slide.png"
 
-under_slide = "scripts/ItemFarming/EverstoneFarming/location/under_slide.png"
+under_slide = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/under_slide.png"
 
-above_slide = "scripts/ItemFarming/EverstoneFarming/location/above_slide.png"
+above_slide = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/above_slide.png"
 
-battle_done = "scripts/ItemFarming/EverstoneFarming/location/battle_done.png"
+battle_done = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/battle_done.png"
 
 
 outside_building_align_val = 739

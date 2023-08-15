@@ -11,29 +11,29 @@ from shiny_notify import ping_mail, check_mail_acc
 from battle_log_config import two_log_region
 from path_correction import self_align_vertical
 
-stole_png = "scripts/ItemFarming/AmuletFarming/battle_logs/stole.png"
+stole_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/battle_logs/stole.png"
 
-flinched_png = "scripts/ItemFarming/AmuletFarming/battle_logs/flinched.png"
+flinched_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/battle_logs/flinched.png"
 
-banette_png = "scripts/ItemFarming/AmuletFarming/location/banette.png"
+banette_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/banette.png"
 
-frisked_meowth_png = "scripts/ItemFarming/AmuletFarming/battle_logs/frisked_meowth.png"
+frisked_meowth_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/battle_logs/frisked_meowth.png"
 
-inside_building = "scripts/ItemFarming/AmuletFarming/location/inside_building.png"
+inside_building = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/inside_building.png"
 
-battle_done = "scripts/ItemFarming/AmuletFarming/location/battle_done.png"
+battle_done = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/battle_done.png"
 
-amulet_png = "scripts/ItemFarming/AmuletFarming/location/take_amulet.png"
+amulet_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/take_amulet.png"
 
-quick_claw_png = "scripts/ItemFarming/AmuletFarming/location/take_quick_claw.png"
+quick_claw_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/take_quick_claw.png"
 
-fight_option = "scripts/ItemFarming/AmuletFarming/location/fight_option.png"
+fight_option = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/fight_option.png"
 
-run_option = "scripts/ItemFarming/AmuletFarming/location/run_option.png"
+run_option = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/run_option.png"
 
-thief_move = "scripts/ItemFarming/AmuletFarming/location/thief_move.png"
+thief_move = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/thief_move.png"
 
-shiny_png = "scripts/ItemFarming/AmuletFarming/location/shiny_pokemon.png"
+shiny_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/shiny_pokemon.png"
 
 at_grass_align_val = 148
 

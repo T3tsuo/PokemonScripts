@@ -9,55 +9,55 @@ from shiny_notify import ping_mail, check_mail_acc
 
 import random_breaks
 
-battle_done = "scripts/PokemonFarming/DittoFarm/images/location/battle_done.png"
+battle_done = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/battle_done.png"
 
-battle_done_2 = "scripts/PokemonFarming/DittoFarm/images/location/battle_done_2.png"
+battle_done_2 = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/battle_done_2.png"
 
-at_left_cave = "scripts/PokemonFarming/DittoFarm/images/location/at_left_cave.png"
+at_left_cave = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/at_left_cave.png"
 
-at_right_cave = "scripts/PokemonFarming/DittoFarm/images/location/at_right_cave.png"
+at_right_cave = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/at_right_cave.png"
 
-fight_option = "scripts/PokemonFarming/DittoFarm/images/in_battle_options/fight_option.png"
+fight_option = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/fight_option.png"
 
-run_option = "scripts/PokemonFarming/DittoFarm/images/in_battle_options/run_option.png"
+run_option = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/run_option.png"
 
-ditto_png = "scripts/PokemonFarming/DittoFarm/images/location/ditto.png"
+ditto_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/ditto.png"
 
-shiny_png = "scripts/PokemonFarming/DittoFarm/images/location/shiny_pokemon.png"
+shiny_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/shiny_pokemon.png"
 
-horde_png = "scripts/PokemonFarming/DittoFarm/images/location/horde.png"
+horde_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/horde.png"
 
-payday_move = "scripts/PokemonFarming/DittoFarm/images/pokemon_moves/payday_move.png"
+payday_move = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/pokemon_moves/payday_move.png"
 
-falseswipe_move = "scripts/PokemonFarming/DittoFarm/images/pokemon_moves/falseswipe_move.png"
+falseswipe_move = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/pokemon_moves/falseswipe_move.png"
 
-assist_move = "scripts/PokemonFarming/DittoFarm/images/pokemon_moves/assist_move.png"
+assist_move = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/pokemon_moves/assist_move.png"
 
-one_pp = "scripts/PokemonFarming/DittoFarm/images/in_battle_options/one_pp.png"
+one_pp = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/one_pp.png"
 
-inside_tunnel_2 = "scripts/PokemonFarming/DittoFarm/images/location/inside_tunnel_2.png"
+inside_tunnel_2 = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/inside_tunnel_2.png"
 
-inside_house = "scripts/PokemonFarming/DittoFarm/images/location/inside_house.png"
+inside_house = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/inside_house.png"
 
-outside_house = "scripts/PokemonFarming/DittoFarm/images/location/outside_house.png"
+outside_house = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/outside_house.png"
 
-pokemon_summary = "scripts/PokemonFarming/DittoFarm/images/location/pokemon_summary.png"
+pokemon_summary = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/pokemon_summary.png"
 
-inside_building = "scripts/PokemonFarming/DittoFarm/images/location/inside_building.png"
+inside_building = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/inside_building.png"
 
-bag_option = "scripts/PokemonFarming/DittoFarm/images/in_battle_options/bag_option.png"
+bag_option = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/bag_option.png"
 
-balls_option = "scripts/PokemonFarming/DittoFarm/images/in_battle_options/balls_option.png"
+balls_option = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/balls_option.png"
 
-red_health = "scripts/PokemonFarming/DittoFarm/images/in_battle_options/red_health.png"
+red_health = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/red_health.png"
 
-yellow_health = "scripts/PokemonFarming/DittoFarm/images/in_battle_options/yellow_health.png"
+yellow_health = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/yellow_health.png"
 
-duskball_png = "scripts/PokemonFarming/DittoFarm/images/balls/duskball.png"
+duskball_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/balls/duskball.png"
 
-duskball_highlighted_png = "scripts/PokemonFarming/DittoFarm/images/balls/duskball_highlighted.png"
+duskball_highlighted_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/balls/duskball_highlighted.png"
 
-asleep_png = "scripts/PokemonFarming/DittoFarm/images/balls/asleep.png"
+asleep_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/balls/asleep.png"
 
 right_left_move = "right"
 
@@ -400,6 +400,8 @@ def go_heal_up():
     pydirectinput.keyDown("z")
     time.sleep(random_breaks.heal_up_break())
     pydirectinput.keyUp("z")
+    with open("log.txt", "a") as f_temp:
+        print("Healing Done", file=f_temp)
     time.sleep(random_breaks.input_break())
 
 

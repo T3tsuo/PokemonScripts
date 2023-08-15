@@ -7,9 +7,9 @@ import random_breaks
 from path_correction import self_align_side
 
 
-outside_building = "scripts/ItemFarming/AmuletFarming/location/outside_building.png"
+outside_building = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/outside_building.png"
 
-sign_fence = "scripts/ItemFarming/AmuletFarming/location/sign_fence.png"
+sign_fence = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/sign_fence.png"
 
 
 outside_building_align_val = 686

@@ -11,31 +11,31 @@ from heal_return import wait_until_see
 from shiny_notify import ping_mail, check_mail_acc
 from battle_log_config import two_log_region
 
-stole_png = "scripts/ItemFarming/EverstoneFarming/battle_logs/stole.png"
+stole_png = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/battle_logs/stole.png"
 
-flinched_png = "scripts/ItemFarming/EverstoneFarming/battle_logs/flinched.png"
+flinched_png = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/battle_logs/flinched.png"
 
-banette_png = "scripts/ItemFarming/EverstoneFarming/location/banette.png"
+banette_png = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/banette.png"
 
-mount_coronet_png = "scripts/ItemFarming/EverstoneFarming/location/mount_coronet_entrance.png"
+mount_coronet_png = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/mount_coronet_entrance.png"
 
-frisked_png = "scripts/ItemFarming/EverstoneFarming/battle_logs/frisked_geodude.png"
+frisked_png = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/battle_logs/frisked_geodude.png"
 
-everstone_png = "scripts/ItemFarming/EverstoneFarming/location/take_everstone.png"
+everstone_png = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/take_everstone.png"
 
-hard_stone_png = "scripts/ItemFarming/EverstoneFarming/location/take_hard_stone.png"
+hard_stone_png = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/take_hard_stone.png"
 
-inside_building = "scripts/ItemFarming/EverstoneFarming/location/inside_building.png"
+inside_building = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/inside_building.png"
 
-battle_done = "scripts/ItemFarming/EverstoneFarming/location/battle_done.png"
+battle_done = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/battle_done.png"
 
-fight_option = "scripts/ItemFarming/EverstoneFarming/location/fight_option.png"
+fight_option = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/fight_option.png"
 
-run_option = "scripts/ItemFarming/EverstoneFarming/location/run_option.png"
+run_option = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/run_option.png"
 
-thief_move = "scripts/ItemFarming/EverstoneFarming/location/thief_move.png"
+thief_move = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/thief_move.png"
 
-shiny_png = "scripts/ItemFarming/EverstoneFarming/location/shiny_pokemon.png"
+shiny_png = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/shiny_pokemon.png"
 
 if os.path.isfile("email.dat"):
     google_email = pickle.load(open("email.dat", "rb"))

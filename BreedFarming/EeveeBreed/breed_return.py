@@ -121,7 +121,7 @@ def go_to_box():
     sleep(random_breaks.input_break())
     # align with pc box
     pydirectinput.keyDown("left")
-    sleep(random_breaks.to_lady())
+    sleep(random_breaks.align_to_box())
     pydirectinput.keyUp("left")
     sleep(random_breaks.input_break())
     self_align_side(cash_register, register_to_pc)

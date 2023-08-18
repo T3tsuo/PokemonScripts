@@ -21,6 +21,11 @@ def to_lady():
     return random() * 0.02 + 0.9
 
 
+def align_to_box():
+    # break from 0.8 - 0.82 seconds
+    return random() * 0.02 + 0.8
+
+
 def to_entrance():
     # break from 0.8 - 0.82 seconds
     return random() * 0.02 + 0.8

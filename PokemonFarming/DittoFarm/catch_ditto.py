@@ -405,7 +405,7 @@ def go_heal_up():
 
 def lineup_in_cave():
     # go up by two
-    pydirectinput.PAUSE = 0.01
+    pydirectinput.PAUSE = 0.03
     pydirectinput.press("up")
     time.sleep(3)
     # check to see if we're in a battle

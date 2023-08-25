@@ -363,7 +363,7 @@ def go_heal_up():
     wait_until_see(inside_tunnel_2, "Inside Tunnel")
     time.sleep(random_breaks.input_break())
     # leave tunnel
-    pydirectinput.PAUSE = 0.03
+    pydirectinput.PAUSE = 0.01
     pydirectinput.press("left")
     time.sleep(random_breaks.input_break())
     pydirectinput.press("left")
@@ -373,7 +373,7 @@ def go_heal_up():
     time.sleep(random_breaks.three_blocks_break())
     pydirectinput.keyUp("down")
     time.sleep(random_breaks.input_break())
-    pydirectinput.PAUSE = 0.03
+    pydirectinput.PAUSE = 0.01
     pydirectinput.press("right")
     time.sleep(random_breaks.input_break())
     pydirectinput.press("right")
@@ -407,7 +407,7 @@ def go_heal_up():
 
 def lineup_in_cave():
     # go up by two
-    pydirectinput.PAUSE = 0.03
+    pydirectinput.PAUSE = 0.01
     pydirectinput.press("up")
     time.sleep(3)
     # check to see if we're in a battle

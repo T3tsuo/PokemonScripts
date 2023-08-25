@@ -2,8 +2,8 @@ from random import random
 
 
 def three_blocks_break():
-    # 0.5 - 0.52
-    return random() * 0.02 + 0.5
+    # 0.4 - 0.42
+    return random() * 0.02 + 0.4
 
 
 def person_tunnel_break():

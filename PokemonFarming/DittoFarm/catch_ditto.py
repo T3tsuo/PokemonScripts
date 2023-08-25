@@ -363,17 +363,15 @@ def go_heal_up():
     wait_until_see(inside_tunnel_2, "Inside Tunnel")
     time.sleep(random_breaks.input_break())
     # leave tunnel
-    pydirectinput.PAUSE = 0.01
+    pydirectinput.PAUSE = 0.03
     pydirectinput.press("left")
     time.sleep(random_breaks.input_break())
     pydirectinput.press("left")
-    pydirectinput.PAUSE = 0.1
     time.sleep(random_breaks.input_break())
     pydirectinput.keyDown("down")
     time.sleep(random_breaks.three_blocks_break())
     pydirectinput.keyUp("down")
     time.sleep(random_breaks.input_break())
-    pydirectinput.PAUSE = 0.01
     pydirectinput.press("right")
     time.sleep(random_breaks.input_break())
     pydirectinput.press("right")

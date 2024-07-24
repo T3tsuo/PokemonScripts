@@ -62,9 +62,6 @@ def get_ditto():
     wait_until_see(box_10, "Select Box 10")
     pydirectinput.keyUp("z")
     mouse_click(box_10)
-    pyautogui.moveTo(location.left + random() * location.width,
-                     location.top + random() * location.height)
-    pydirectinput.click()
     sleep(random_breaks.input_break())
 
     wait_until_see(ditto_box, "Grab Ditto")

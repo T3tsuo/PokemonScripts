@@ -61,7 +61,7 @@ def get_ditto():
     pydirectinput.keyDown("z")
     wait_until_see(box_10, "Select Box 10")
     pydirectinput.keyUp("z")
-    location = pyautogui.locateOnScreen(box_10)
+    mouse_click(box_10)
     pyautogui.moveTo(location.left + random() * location.width,
                      location.top + random() * location.height)
     pydirectinput.click()

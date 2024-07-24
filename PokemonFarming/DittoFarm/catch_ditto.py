@@ -139,7 +139,7 @@ def in_battle():
         with open("log.txt", "a") as f_temp:
             print("Ditto", file=f_temp)
         return catch_ditto()
-    elif pyautogui.locateOnScreen(horde_png) is not None:
+    elif pyautogui.locateOnScreen(horde_png, confidence=0.8) is not None:
         with open("log.txt", "a") as f_temp:
             print("Horde", file=f_temp)
         run_away()

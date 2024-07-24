@@ -13,7 +13,7 @@ from path_correction import self_align_side
 
 backend_path = "scripts/PokemonScripts/BreedFarming/EeveeBreed/"
 
-box_10 = backend_path + "images/box/box_10.png"
+box_5 = backend_path + "images/box/box_5.png"
 ditto_box = backend_path + "images/box/ditto_box.png"
 wall_sign = backend_path + "images/location/wall_sign.png"
 outside_building = backend_path + "images/location/outside_building.png"
@@ -57,11 +57,11 @@ def wait_until_see(img, msg):
 
 
 def get_ditto():
-    # goes to box 10
+    # goes to box 5
     pydirectinput.keyDown("z")
-    wait_until_see(box_10, "Select Box 10")
+    wait_until_see(box_5, "Select Box 5")
     pydirectinput.keyUp("z")
-    mouse_click(box_10)
+    mouse_click(box_5)
     sleep(random_breaks.input_break())
 
     wait_until_see(ditto_box, "Grab Ditto")

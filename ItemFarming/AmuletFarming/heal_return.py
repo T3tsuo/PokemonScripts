@@ -5,33 +5,56 @@ import pydirectinput
 
 import random_breaks
 from path_correction import self_align_side
+from path_correction import self_align_vertical
 
 
 outside_building = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/outside_building.png"
 
 sign_fence = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/sign_fence.png"
 
+table = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/table.png"
 
-outside_building_align_val = 686
-sign_fence_align_val = 161
+bills_machine = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/bills_machine.png"
+
+
+outside_building_align_val = 0
+sign_fence_align_val = 0
+
+table_align_val = 437
+bills_machine_align_val = 830
+
+
+def wait_until_see(img, msg):
+    while True:
+        if pyautogui.locateOnScreen(img, confidence=0.8) is not None:
+            # we are there
+            with open("log.txt", "a") as f_temp:
+                print(msg, file=f_temp)
+            break
+        else:
+            time.sleep(0.1)
 
 
 def leave_building():
+    # go down
+    pydirectinput.keyDown("down")
+    time.sleep(random_breaks.leave_building_down())
+    pydirectinput.keyUp("down")
+    # check if aligned
+    self_align_vertical(table, table_align_val)
+    # go right
+    pydirectinput.keyDown("right")
+    time.sleep(random_breaks.leave_building_right())
+    pydirectinput.keyUp("right")
+    # check if aligned
+    self_align_side(bills_machine, bills_machine_align_val)
+    # go down
     pydirectinput.keyDown("down")
     time.sleep(random_breaks.leave_building())
     pydirectinput.keyUp("down")
     # while cannot find outside, keep on waiting
-    is_outside = False
-    while is_outside is False:
-        # if image recognition detects that we left the building
-        if pyautogui.locateOnScreen(outside_building, confidence=0.8) is not None:
-            # then we are outside
-            with open("log.txt", "a") as f_temp:
-                print("Left Building", file=f_temp)
-            is_outside = True
-            time.sleep(0.5)
-        else:
-            time.sleep(0.5)
+    wait_until_see(outside_building, "Left Building")
+    time.sleep(random_breaks.input_break())
 
 
 def go_to_grass():

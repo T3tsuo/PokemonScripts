@@ -26,9 +26,19 @@ def three_blocks():
     return random() * 0.02 + 0.23
 
 
+def leave_building_down():
+    # 0.2 seconds to 0.3 seconds to go down
+    return random() * 0.1 + 0.2
+
+
+def leave_building_right():
+    # 0.6 seconds to 0.7 seconds to go right
+    return random() * 0.1 + 0.6
+
+
 def leave_building():
-    # 1.1 seconds to 1.2 seconds to leave building
-    return random() * 0.1 + 1.1
+    # 0.7 seconds to 0.8 seconds to go right
+    return random() * 0.1 + 0.7
 
 
 def paying_attention_break():

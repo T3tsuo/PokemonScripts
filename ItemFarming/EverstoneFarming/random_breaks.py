@@ -2,8 +2,8 @@ from random import random
 
 
 def to_cave_break():
-    # 2.95 - 2.97
-    return random() * 0.02 + 2.95
+    # 2.97 - 2.99
+    return random() * 0.02 + 2.97
 
 
 def up_slide_break():

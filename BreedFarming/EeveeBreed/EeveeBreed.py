@@ -1,7 +1,5 @@
-import breed_return
-import ditto_return
+import breed_eevee
 from time import sleep
-import pydirectinput
 import os
 import pickle
 
@@ -25,9 +23,5 @@ def run():
     with open("log.txt", "a") as f_temp:
         print("Starting Script", file=f_temp)
     sleep(2)
-    pydirectinput.press("x")
-    with open("log.txt", "a") as f_temp:
-        print("Toggle Run", file=f_temp)
     while True:
-        breed_return.run()
-        ditto_return.run()
+        breed_eevee.run()

@@ -13,6 +13,7 @@ from notify import check_mail_acc, ping_mail
 backend_path = "scripts/PokemonScripts/BreedFarming/EeveeBreed/"
 
 box_parent = backend_path + "images/breeding/box_parent.png"
+pc_deposit_box = backend_path + "images/box/pc_deposit_box.png"
 box_5 = backend_path + "images/box/box_5.png"
 ditto_box = backend_path + "images/box/ditto_box.png"
 eevee_box = backend_path + "images/box/eevee_box.png"
@@ -22,7 +23,6 @@ eevee_hatched = backend_path + "images/breeding/eevee_hatched.png"
 breed_btn = backend_path + "images/breeding/breed_btn.png"
 areyousure_dialog = backend_path + "images/breeding/areyousure_dialog.png"
 
-register_to_pc = 718
 
 if os.path.isfile("email.dat"):
     google_email = pickle.load(open("email.dat", "rb"))
@@ -84,6 +84,12 @@ def breed():
     wait_until_see(breed_slot_1, "Select Slot")
     sleep(random_breaks.input_break())
     mouse_click(breed_slot_1)
+    sleep(random_breaks.input_break())
+
+    # move mouse away in case
+    wait_until_see(pc_deposit_box, "Move Mouse")
+    sleep(random_breaks.input_break())
+    mouse_click(pc_deposit_box)
     sleep(random_breaks.input_break())
 
     wait_until_see(eevee_box, "Select Eevee")

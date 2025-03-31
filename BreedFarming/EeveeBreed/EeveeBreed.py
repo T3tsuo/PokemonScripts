@@ -3,7 +3,7 @@ from time import sleep
 import os
 import pickle
 
-# this program breeds a eevee's with dittos and repeats until box 10 is fully empty
+# this program breeds a eevee's with dittos and repeats until box 5 is fully empty
 
 os.environ['REQUESTS_CA_BUNDLE'] = "certifi/cacert.pem"
 

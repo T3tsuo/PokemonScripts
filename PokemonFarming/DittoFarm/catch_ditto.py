@@ -253,7 +253,8 @@ def throw_ball(img1, img2):
     with open("log.txt", "a") as f_temp:
         print("Bag", file=f_temp)
     while True:
-        if pyautogui.locateOnScreen(balls_option) is None:
+        if pyautogui.locateOnScreen(balls_option) is None or pyautogui.locateOnScreen(img1) is None \
+                or pyautogui.locateOnScreen(img2) is None:
             # go to pokeballs
             pydirectinput.press("right")
             time.sleep(random_breaks.input_break())

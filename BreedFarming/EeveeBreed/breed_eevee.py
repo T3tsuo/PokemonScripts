@@ -10,8 +10,6 @@ import pydirectinput
 import random_breaks
 from notify import check_mail_acc, ping_mail
 
-# test pull method
-
 backend_path = "scripts/PokemonScripts-main/BreedFarming/EeveeBreed/"
 
 box_parent = backend_path + "images/breeding/box_parent.png"

@@ -9,55 +9,57 @@ from shiny_notify import ping_mail, check_mail_acc
 
 import random_breaks
 
-battle_done = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/battle_done.png"
+backend_path = "scripts/PokemonScripts-main/PokemonFarming/DittoFarm/"
 
-battle_done_2 = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/battle_done_2.png"
+battle_done = backend_path + "images/location/battle_done.png"
 
-at_left_cave = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/at_left_cave.png"
+battle_done_2 = backend_path + "images/location/battle_done_2.png"
 
-at_right_cave = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/at_right_cave.png"
+at_left_cave = backend_path + "images/location/at_left_cave.png"
 
-fight_option = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/fight_option.png"
+at_right_cave = backend_path + "images/location/at_right_cave.png"
 
-run_option = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/run_option.png"
+fight_option = backend_path + "images/in_battle_options/fight_option.png"
 
-ditto_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/ditto.png"
+run_option = backend_path + "images/in_battle_options/run_option.png"
 
-shiny_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/shiny_pokemon.png"
+ditto_png = backend_path + "images/location/ditto.png"
 
-horde_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/horde.png"
+shiny_png = backend_path + "images/location/shiny_pokemon.png"
 
-payday_move = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/pokemon_moves/payday_move.png"
+horde_png = backend_path + "images/location/horde.png"
 
-falseswipe_move = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/pokemon_moves/falseswipe_move.png"
+payday_move = backend_path + "images/pokemon_moves/payday_move.png"
 
-assist_move = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/pokemon_moves/assist_move.png"
+falseswipe_move = backend_path + "images/pokemon_moves/falseswipe_move.png"
 
-one_pp = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/one_pp.png"
+assist_move = backend_path + "images/pokemon_moves/assist_move.png"
 
-inside_tunnel_2 = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/inside_tunnel_2.png"
+one_pp = backend_path + "images/in_battle_options/one_pp.png"
 
-inside_house = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/inside_house.png"
+inside_tunnel_2 = backend_path + "images/location/inside_tunnel_2.png"
 
-outside_house = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/outside_house.png"
+inside_house = backend_path + "images/location/inside_house.png"
 
-pokemon_summary = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/pokemon_summary.png"
+outside_house = backend_path + "images/location/outside_house.png"
 
-inside_building = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/inside_building.png"
+pokemon_summary = backend_path + "images/location/pokemon_summary.png"
 
-bag_option = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/bag_option.png"
+inside_building = backend_path + "images/location/inside_building.png"
 
-balls_option = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/balls_option.png"
+bag_option = backend_path + "images/in_battle_options/bag_option.png"
 
-red_health = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/red_health.png"
+balls_option = backend_path + "images/in_battle_options/balls_option.png"
 
-yellow_health = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/yellow_health.png"
+red_health = backend_path + "images/in_battle_options/red_health.png"
 
-duskball_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/balls/duskball.png"
+yellow_health = backend_path + "images/in_battle_options/yellow_health.png"
 
-duskball_highlighted_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/balls/duskball_highlighted.png"
+duskball_png = backend_path + "images/balls/duskball.png"
 
-asleep_png = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/balls/asleep.png"
+duskball_highlighted_png = backend_path + "images/balls/duskball_highlighted.png"
+
+asleep_png = backend_path + "images/balls/asleep.png"
 
 right_left_move = "right"
 

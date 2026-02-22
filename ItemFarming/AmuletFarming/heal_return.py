@@ -7,14 +7,15 @@ import random_breaks
 from path_correction import self_align_side
 from path_correction import self_align_vertical
 
+backend_path = "scripts/PokemonScripts-main/ItemFarming/AmuletFarming/"
 
-outside_building = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/outside_building.png"
+outside_building = backend_path + "location/outside_building.png"
 
-sign_fence = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/sign_fence.png"
+sign_fence = backend_path + "location/sign_fence.png"
 
-table = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/table.png"
+table = backend_path + "location/table.png"
 
-bills_machine = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/bills_machine.png"
+bills_machine = backend_path + "location/bills_machine.png"
 
 
 outside_building_align_val = 0

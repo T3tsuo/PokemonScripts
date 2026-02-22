@@ -10,7 +10,7 @@ project_d = os.getcwd()
 
 game_config_dict = {}
 
-fight_option = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/fight_option.png"
+fight_option = "scripts/PokemonScripts-main/ItemFarming/AmuletFarming/location/fight_option.png"
 
 
 def get_config(path, project_d):

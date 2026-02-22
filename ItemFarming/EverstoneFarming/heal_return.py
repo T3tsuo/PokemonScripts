@@ -6,16 +6,17 @@ import pydirectinput
 import random_breaks
 from path_correction import self_align_side, self_align_up
 
+backend_path = "scripts/PokemonScripts-main/ItemFarming/EverstoneFarming/"
 
-outside_building = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/outside_building.png"
+outside_building = backend_path + "location/outside_building.png"
 
-left_of_slide = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/left_of_slide.png"
+left_of_slide = backend_path + "location/left_of_slide.png"
 
-under_slide = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/under_slide.png"
+under_slide = backend_path + "location/under_slide.png"
 
-above_slide = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/above_slide.png"
+above_slide = backend_path + "location/above_slide.png"
 
-battle_done = "scripts/PokemonScripts/ItemFarming/EverstoneFarming/location/battle_done.png"
+battle_done = backend_path + "location/battle_done.png"
 
 
 outside_building_align_val = 739

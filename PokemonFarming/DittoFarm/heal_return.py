@@ -5,19 +5,21 @@ import pydirectinput
 import random_breaks
 from path_correction import self_align_side
 
-outside_building = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/outside_building.png"
+backend_path = "scripts/PokemonScripts-main/PokemonFarming/DittoFarm/"
 
-inside_house = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/inside_house.png"
+outside_building = backend_path + "images/location/outside_building.png"
 
-inside_tunnel = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/inside_tunnel.png"
+inside_house = backend_path + "images/location/inside_house.png"
 
-battle_done = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/battle_done.png"
+inside_tunnel = backend_path + "images/location/inside_tunnel.png"
 
-battle_done_2 = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/battle_done_2.png"
+battle_done = backend_path + "images/location/battle_done.png"
 
-align_door = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/location/align_door.png"
+battle_done_2 = backend_path + "images/location/battle_done_2.png"
 
-run_option = "scripts/PokemonScripts/PokemonFarming/DittoFarm/images/in_battle_options/run_option.png"
+align_door = backend_path + "images/location/align_door.png"
+
+run_option = backend_path + "images/in_battle_options/run_option.png"
 
 fishermen_to_door = 362
 

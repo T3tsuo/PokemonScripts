@@ -4,7 +4,7 @@ import pyautogui
 
 import random_breaks
 
-outside_building = "scripts/PokemonScripts/LevelFarming/location/outside_building.png"
+outside_building = "scripts/PokemonScripts-main/LevelFarming/location/outside_building.png"
 
 
 def leave_building():

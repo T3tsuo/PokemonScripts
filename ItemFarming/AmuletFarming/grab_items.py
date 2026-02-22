@@ -11,29 +11,31 @@ from shiny_notify import ping_mail, check_mail_acc
 from battle_log_config import two_log_region
 from path_correction import self_align_vertical
 
-stole_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/battle_logs/stole.png"
+backend_path = "scripts/PokemonScripts-main/ItemFarming/AmuletFarming/"
 
-flinched_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/battle_logs/flinched.png"
+stole_png = backend_path + "battle_logs/stole.png"
 
-banette_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/banette.png"
+flinched_png = backend_path + "battle_logs/flinched.png"
 
-frisked_meowth_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/battle_logs/frisked_meowth.png"
+banette_png = backend_path + "location/banette.png"
 
-inside_building = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/inside_building.png"
+frisked_meowth_png = backend_path + "battle_logs/frisked_meowth.png"
 
-battle_done = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/battle_done.png"
+inside_building = backend_path + "location/inside_building.png"
 
-amulet_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/take_amulet.png"
+battle_done = backend_path + "location/battle_done.png"
 
-quick_claw_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/take_quick_claw.png"
+amulet_png = backend_path + "location/take_amulet.png"
 
-fight_option = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/fight_option.png"
+quick_claw_png = backend_path + "location/take_quick_claw.png"
 
-run_option = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/run_option.png"
+fight_option = backend_path + "location/fight_option.png"
 
-thief_move = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/thief_move.png"
+run_option = backend_path + "location/run_option.png"
 
-shiny_png = "scripts/PokemonScripts/ItemFarming/AmuletFarming/location/shiny_pokemon.png"
+thief_move = backend_path + "location/thief_move.png"
+
+shiny_png = backend_path + "location/shiny_pokemon.png"
 
 at_grass_align_val = 148
 
